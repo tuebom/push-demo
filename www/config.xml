@@ -12,11 +12,11 @@
         Push sample application that receives push notifications.
     </description>
 
-    <author href="https://github.com/pwirya/fastgap" email="tuebom.wirya@gmail.com">
+    <author href="https://github.com/tuebom/push-demo" email="tuebom.wirya@gmail.com">
         Putu Wirya
     </author>
 
-    <preference name="permissions"                value="none"/>
+    <preference name="permissions" value="none"/>
 
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
@@ -29,11 +29,11 @@
 
     <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.3" />
     <plugin name="phonegap-plugin-push" spec="1.5.3" source="npm">
-        <variable name="SENDER_ID" value="788426251928" />
+        <variable name="SENDER_ID" value="597497239727" />
     </plugin>
     <plugin name="cordova-plugin-console" source="npm" spec="~1.0.3" />
     <plugin name="cordova-plugin-dialogs" source="npm" spec="~1.2.1" />
-    <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
+    <!--<plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />-->
     
 	<icon src="icon.png" />
     <platform name="android">
